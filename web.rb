@@ -1,6 +1,6 @@
 post "/files" do
   file_uuid = generate_uuid()
-  file_name = "/files" + file_uuid
+  file_name = "/files/" + file_uuid
   original_file_name = params['file'][:filename]
   uploaded_at = Time.now.to_s
   status = "uploaded"
