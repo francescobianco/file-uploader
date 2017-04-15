@@ -12,5 +12,5 @@ ENV FILE_SERVICE_ORIGINAL_FILE_NAME "http://mu.semte.ch/vocabularies/file-servic
 
 ENV FILE_SERVICE_UPLOADED_AT "http://mu.semte.ch/vocabularies/file-service/uploadedAt"
 
-ENV FILE_SERVICE_STATUS "http://mu.semte.ch/vocabularies/file-service/status"
+ENV FILE_SERVICE_FILE_STATUS "http://mu.semte.ch/vocabularies/file-service/status"
 
