@@ -1,7 +1,7 @@
 # file-uploader
 Allows to upload a file and optionally assign a class to it and write meta information about this transaction in the triple store
 
-# Adding to docker compose
+## Adding to docker compose
 To add the file uploader service with all default settings to your mu.semte.ch project add the following snippet to your docker-compose.yml file:
 ```
 	uploader: flowofcontrol/file-uploader
@@ -11,7 +11,7 @@ To add the file uploader service with all default settings to your mu.semte.ch p
 	  - ./uploads:/files
 ```
 
-# Options
+## Options
 This micro-service was extended from the mu-ruby-template so all options offered by the template are offered by this micro-service.
 
 In addtion to those you can also set The following variables:
@@ -23,7 +23,7 @@ In addtion to those you can also set The following variables:
 * FILE_SERVICE_FILE_STATUS: the predicate (URI) for the file status
 
 
-# exmaple of a docker-compose.yml set up
+## exmaple of a docker-compose.yml set up
 This set up shows the file uploader service with all variables set and the upload service connected to the delta-service
 ```
   uploader:
