@@ -40,3 +40,10 @@ This set up shows the file uploader service with all variables set and the uploa
       FILE_SERVICE_UPLOADED_AT: "http://file.com/uploadedAt"
       FILE_SERVICE_FILE_STATUS: "http://file.com/status"
 ```
+
+
+## example of usage
+This is how the service could be used with a curl call if it is put in a docker-compose.yml file as uploader:
+```
+curl -F "file=@test.txt" http://uploader/files
+```
