@@ -14,7 +14,7 @@ To add the file uploader service with all default settings to your mu.semte.ch p
 ## Options
 This micro-service was extended from the mu-ruby-template so all options offered by the template are offered by this micro-service.
 
-In addtion to those you can also set The following variables:
+In addtion to those you who wish to can also set the following variables:
 * FILE_SERVICE_BASE_URI: the uri that will be used to create file URI's from
 * FILE_SERVICE_FILE_CLASS: the URI that corresponds to the class you want a file to have
 * FILE_SERVICE_FILE_NAME: the predicate (URI) that binds a file to it's file name (this will be the name this file hase in /files and as such will be generated)
